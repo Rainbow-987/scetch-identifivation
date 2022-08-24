@@ -1,0 +1,30 @@
+#title {
+    font-size: 30px;
+    background: rgb(12, 236, 217);
+    width: 100%;
+}
+
+.h2 {
+    font-size: 30px;
+}
+
+canvas {
+
+    border-radius: 15px;
+    border: 4px dotted indigo;
+    animation-name: borders;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes borders {
+
+    from {
+        box-shadow: 2px 2px 40px purple
+    }
+
+    to {
+        box-shadow: 2px 2px 40px violet
+    }
+}
